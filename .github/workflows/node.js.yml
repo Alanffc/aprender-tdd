@@ -6,7 +6,9 @@ name: Alan Labo
 on:
   push:
     branches: [ "main" ]
-
+  pull_request:
+    branches: [ "main" ]
+    
 jobs:
   alan-labo:
 
